@@ -1,0 +1,14 @@
+[package]
+name = "umeyama"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+homepage = "https://pwa.ir"
+repository = "https://github.com/xclud/rust-umeyama"
+documentation = "https://docs.rs/crate/umeyama"
+description = "An algorithm for finding the optimal translation, rotation, and scaling that aligns two sets of points with minimum root-mean-square deviation (RMSD)."
+categories = ["algorithms", "science", "computer-vision"]
+keywords = ["root-mean-square deviation", "umeyama"]
+
+[dependencies]
+nalgebra = "^0.32.4"
